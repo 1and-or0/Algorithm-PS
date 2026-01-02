@@ -1,5 +1,7 @@
 # Algorithm-PS
-문제 풀이 기록
+A collection of my algorithm problem-solving records.
 
 ---
-[Archive](Archive/) 2025년까지 기록 (Legacy, 정리 안 됨)
+## Repository Structure
+### 🗂️ Archives
+* [Archive](Archive/): Legacy records through 2025 (Unorganized).

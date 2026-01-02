@@ -1,15 +1,17 @@
-### 언어 공부
+### 📚 Language Study
 
-[C/C++](./기본_C_CPP/)
+[C/C++] (./기본_C_CPP/)
+
+---
+
+### 🚀 Problem Solving (PS)
+
+[Baekjoon (BOJ)](./백준/)  
+[Dongbinna Algorithm](./알고리즘_동빈나/)  
+[Codetree](./코드트리/)  
+[Programmers](./프로그래머스/)
 
 ---
 
-### PS 문제 풀이
-
-[백준](./백준/)<br>
-[알고리즘 동빈나](./알고리즘_동빈나/)<br>
-[코드트리](./코드트리/)<br>
-[프로그래머스](./프로그래머스/)
-
----
-PS [헤더파일](./헤더파일/) <bits/stdc++.h> 설정 관련 내용
+### 🛠️ Configuration
+[PS Header File](./헤더파일/) - Documentation regarding `<bits/stdc++.h>` setup.
