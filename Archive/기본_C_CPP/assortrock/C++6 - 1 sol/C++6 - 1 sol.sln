@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssortSol1", "AssortSol1\AssortSol1.vcxproj", "{87B30DE4-C9CE-43E9-A093-C389BF56669A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Debug|x64.ActiveCfg = Debug|x64
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Debug|x64.Build.0 = Debug|x64
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Debug|x86.ActiveCfg = Debug|Win32
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Debug|x86.Build.0 = Debug|Win32
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Release|x64.ActiveCfg = Release|x64
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Release|x64.Build.0 = Release|x64
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Release|x86.ActiveCfg = Release|Win32
+		{87B30DE4-C9CE-43E9-A093-C389BF56669A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57C59D15-0D34-4C0A-839E-5C2A2F1EC509}
+	EndGlobalSection
+EndGlobal

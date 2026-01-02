@@ -1,0 +1,30 @@
+#include <cstdio>
+
+void main()
+{
+	int height;
+	printf("높이를 입력: ");
+	scanf_s("%d", &height);
+
+	for (int i = 0; i < height; ++i)
+	{
+		for (int j = 2 * i; j < (height - 1) * 2; ++j)
+		{
+			printf(" ");
+		}
+		int j;
+		for(j=0; j<i+1; ++j)
+		{
+			printf(" ");
+			printf("%d", 2*j + 1);
+		}
+		for (int k = j-1; k > 0; --k)
+		{
+			printf(" ");
+			printf("%d", 2 * k - 1);
+		}
+		printf("\n");
+	}
+
+	return;
+}

@@ -1,0 +1,130 @@
+// Study_C_Game1.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+//
+
+//#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
+int main()
+{
+    int a;
+    float b;
+    
+    srand(time(NULL));
+    a = rand() % 11;
+
+    int count_0 = 0;
+    int count_1 = 0;
+    int count_2 = 0;
+    int count_3 = 0;
+    int count_4 = 0;
+    int count_5 = 0;
+    int count_6 = 0;
+    int count_7 = 0;
+    int count_8 = 0;
+    int count_9 = 0;
+    int count_10 = 0;
+
+
+    for (int i = 0; i < 1000000; ++i)
+    {
+        a = rand() % 11;
+        printf("%d\n", a);
+
+        if (a == 5)
+        {
+            ++count_5;
+            printf("count_5: %d", count_5);
+        }
+        else if ( 5 > a )
+        {
+            if (2.5 > a)
+            {
+                if (1 == a)
+                {
+                    ++count_1;
+                    printf("count_1: %d", count_1);
+                }
+                else if (2 == a)
+                {
+                    ++count_2;
+                    printf("count_2: %d", count_2);
+                }
+                else if (0 == a)
+                {
+                    ++count_0;
+                    printf("count_0: %d", count_0);
+                }
+            }
+            else if (3 == a)
+            {
+                ++count_3;
+                printf("count_3: %d", count_3);
+            }
+            else if (4 == a)
+            {
+                ++count_4;
+                printf("count_4: %d", count_4);
+            }
+        }
+        else if (a > 5)
+        {
+            if (a > 7.5)
+            {
+                if (a > 9)
+                {
+                    ++count_10;
+                    printf("count_10: %d", count_10);
+                }
+                else if (9 == a)
+                {
+                    ++count_9;
+                    printf("count_9: %d", count_9);
+                }
+                else if (8 == a)
+                {
+                    ++count_8;
+                    printf("count_8: %d", count_8);
+                }
+            }
+            else if (7 == a)
+            {
+                ++count_7;
+                printf("count_7: %d", count_7);
+            }
+            else if (6 == a)
+            {
+                ++count_6;
+                printf("count_6: %d", count_6);
+            }
+        }
+    }
+    
+    printf("\n\n\n");
+    printf("count_0: %d\n", count_0);
+    printf("count_1: %d\n", count_1);
+    printf("count_2: %d\n", count_2);
+    printf("count_3: %d\n", count_3);
+    printf("count_4: %d\n", count_4);
+    printf("count_5: %d\n", count_5);
+    printf("count_6: %d\n", count_6);
+    printf("count_7: %d\n", count_7);
+    printf("count_8: %d\n", count_8);
+    printf("count_9: %d\n", count_9);
+    printf("count_10: %d\n", count_10);
+    
+    return 0;
+    //std::cout << "Hello World!\n";
+}
+
+// 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
+// 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
+
+// 시작을 위한 팁: 
+//   1. [솔루션 탐색기] 창을 사용하여 파일을 추가/관리합니다.
+//   2. [팀 탐색기] 창을 사용하여 소스 제어에 연결합니다.
+//   3. [출력] 창을 사용하여 빌드 출력 및 기타 메시지를 확인합니다.
+//   4. [오류 목록] 창을 사용하여 오류를 봅니다.
+//   5. [프로젝트] > [새 항목 추가]로 이동하여 새 코드 파일을 만들거나, [프로젝트] > [기존 항목 추가]로 이동하여 기존 코드 파일을 프로젝트에 추가합니다.
+//   6. 나중에 이 프로젝트를 다시 열려면 [파일] > [열기] > [프로젝트]로 이동하고 .sln 파일을 선택합니다.

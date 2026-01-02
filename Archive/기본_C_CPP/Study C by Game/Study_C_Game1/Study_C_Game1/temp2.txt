@@ -1,0 +1,32 @@
+srand(time(NULL));
+
+	int data[100];
+	int total = 0;
+	//int total_fake = 0;
+	int max = 0;
+	int len_data = sizeof(data) / sizeof(int);
+
+	for (int i = 0; i < len_data; ++i)
+	{
+		data[i] = rand() % 101;
+		total += data[i];
+
+	}
+
+	max = data[0];
+
+	for (int i = 0; i < len_data; ++i)
+	{
+		printf("\n\n%d\n", data[i]);
+		//total_fake += data[i];
+
+		if (max < data[i])
+		{
+			max = data[i];
+		}
+	}
+	
+	printf("\ntotal: %d\n", total);
+	printf("\n�ִ밪 max: %d\n", max);
+	
+	//printf("\ntotal_fake: %d\n", total);

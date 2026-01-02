@@ -1,0 +1,13 @@
+# -*- coding: euc-kr -*-
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
+
+
+파라메트릭 서치: 최적화 문제를 결정 문제(yes or no)로 바꾸어 해결하는 기법
+	+ 아날로그를 디지털로 샘플링, 양자화하는 느낌으로 이해하면 될까?
+
+ex)  특정한 조건을 만족하는 가장 알맞는 값을 빠르게 찾는 최적화 문제
+	이진 탐색을 통해 해결 가능
+

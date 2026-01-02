@@ -1,0 +1,6 @@
+마지막에 bits 폴더는 기본적으로 있음(visual studio와 달리).
+따라서, bits 폴더에 stdc++.h 헤더 파일을 다운받아 옮겨준다
+그러면 #include <bits/stdc++.h>와 같이 사용 가능하다
+
+저장 위치
+C:\msys64\mingw64\include\c++\12.2.0\bits
